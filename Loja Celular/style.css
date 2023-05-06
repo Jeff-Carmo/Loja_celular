@@ -4,31 +4,6 @@
     
 }
  /* Cabeçalho */
-h1{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 22px;
-    font-size: 60px;
-    width: 380px;
-    color: rgb(0, 0, 0);
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(244, 244, 244);
-   
-}
-#subtitulo2{
-    color: #fff;
-    font-size: 31px;
-    text-shadow: 0 0 5px #fff;
-}
-
-
-#subtitulo3{
-    text-align: center;
-}
-
 
 header{
     background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(69, 133, 228) 60%);
@@ -38,14 +13,29 @@ header{
     border-left: 6px solid black;
     border-right: 6px solid black;
     border-bottom: 6px solid black;
+    height: 40vh;
 }
 
-header img{
+
+.banner img{
+    display: block;
+    margin: 0px auto;
+    width: 40vw;
+    height: 35vh;
+}
+
+.redessociais img{
     float: right;
     width: 25px;
     height: 25px;  
-    padding-right: 20px;
+    padding: 0px 10px;
 
+}
+
+.redessociais img:hover{
+    background-color: #fff;
+    border-radius: 20px;
+    transition: 0.6s;
 }
 
  /* Menu horizontal */
@@ -88,7 +78,7 @@ header img{
 }
 
 #menu-h ul li:last-child a:hover{
-    border: 2px solid #fff ;
+    border: 1px solid #fff ;
 }
 
 
@@ -102,7 +92,7 @@ header img{
     
 }
 
-/* Imagem Escola */
+ /* Imagem Meio */
 
 .topo{
     border-bottom: 3px solid black;
@@ -124,7 +114,7 @@ header img{
 .carrossel{
     width: 400px;
     height: 450px;
-    margin: 30px auto;
+    padding: 10px;
     overflow: hidden;
 }
 
@@ -170,28 +160,6 @@ header img{
 100% {left: 0px}
 }
 
-/* Parte de Baixo */
-
-.baixo {
-    padding-top: 20px;
-    border-top: 3px solid black;
-}
-
-.baixo h3{
-    text-align: center;
-    font-size: 22px;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
-}
-
-.baixo p{
-    text-align: justify;
-    text-indent: 50px;
-    width: 850px;
-    font-size: 18px;
-    font-weight: bold;
-    padding-bottom: 20px;
-}
-
 /* Rodapé */
 
 footer{
@@ -205,3 +173,108 @@ footer{
     border-bottom: 6px solid black;
     
 }
+
+/* Fim Index.Html */
+
+
+/* Marcas.Html */
+
+.container2{
+    display: grid;
+    background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(69, 133, 228) 60%); 
+    grid-template-columns: 1fr 1fr;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    
+}
+
+.produtoprincipal{
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgb(244, 244, 244);
+    border-radius: 10px;
+    width: 37vw;
+    
+}
+
+
+.preçoantigo{
+    color: red;
+}
+
+.preçonovo{
+    color: #fff;
+    background-color: black;
+    text-shadow: 0 0 5px #fff;
+    padding: 3px;
+}
+
+.seta{
+    background-color: rgb(104, 173, 0);
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 1px 3px;
+}
+
+.frete{
+    border: 1px solid #272626;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.7); 
+    padding: 10px;
+    width: 20vw;
+}
+
+.frete input{
+    width: 10vw;
+}
+
+.button1{
+    cursor: pointer;
+    padding: 2px;
+    background-color: rgb(104, 173, 0);
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.comprar{
+    width: 25vw;
+    padding: 10px;
+    border: 1px solid #272626;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.7);
+    background-color: rgb(104, 173, 0);
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    
+}
+
+.comprar:hover{
+    outline: 1px solid rgb(255, 255, 255);
+    background-color: rgb(150, 239, 18);
+}
+
+.produto img{
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 0px 3px #000000;
+    
+}
+
+.container3{
+    display: grid;
+    background: linear-gradient(to right, rgb(69, 133, 228) 0%, rgb(255, 255, 255) 60%); 
+    grid-template-columns: 1fr 1fr;
+    border-left: 6px solid black;
+    border-right: 6px solid black;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
